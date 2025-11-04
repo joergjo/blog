@@ -17,6 +17,7 @@ title = "Something With Code, Cloud and AI"
 [params.author]
   name = "Jörg Jooss"
   email = "joerg@joergjooss.de"
+  image = "/img/profile.jpg"
   # image = "https://avatars.githubusercontent.com/u/1625465?v=4"
   imageQuality = 96
   headline = "My Blog | Something With Code, Cloud and AI"

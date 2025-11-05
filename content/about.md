@@ -19,3 +19,12 @@ This blog focuses on my favorite topics these days: Microsoft Azure, generative 
 - [go-foundry-local](https://github.com/joergjo/go-foundry-local): There wasn't a Foundry Local Go SDK, so I built my own. Supports both macOS and Windows. 
 - [kubeup](https://github.com/joergjo/kubeup): A Go webhook to receive and process Azure Kubernetes Service notifications from Azure Event Grid as CloudEvents. 
 
+### Feedback
+
+If you want to comment on one of my articles or find any errors in the sample code, do create an issue on GitHub in the sample's repository. Every blog posts has a link to its sample repository in an info box like this. 
+
+{{< alert "circle-info" >}}
+The following code uses ... Find the complete sample on [GitHub](https://github.com/joergjo/).
+{{< /alert >}}
+
+The info box also mentions the specific versions of a programming language, runtime, or packages being used. This hopefully helps you using my content as it ages over time 😊.

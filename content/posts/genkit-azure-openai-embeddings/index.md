@@ -56,7 +56,9 @@ fmt.Println(len(res.Embeddings[0].Embedding)) // should be 1536 for text-embeddi
 
 We obtain an embedder through the plugin's `Embedder()` method and pass it to `genkit.Embed()`. The resulting `[]float32` slice—the vector representing `Hello World!`—has a length of 1536, matching the dimensionality of Azure OpenAI's `text-embedding-3-small` model.
 
-> {{< icon "lightbulb" >}} Different embedding models produce vectors with different dimensions. For example, `text-embedding-3-large` produces 3072-dimensional vectors, while `text-embedding-ada-002` (the previous generation) produces 1536-dimensional vectors. Always ensure your vector database schema matches your chosen model's dimensions.
+{{< alert >}}
+Different embedding models produce vectors with different dimensions. For example, `text-embedding-3-large` produces 3072-dimensional vectors, while `text-embedding-ada-002` (the previous generation) produces 1536-dimensional vectors. Always ensure your vector database schema matches your chosen model's dimensions.
+{{< /alert >}}
 
 ## Vector Search with Azure OpenAI and pgvector
 

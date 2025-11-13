@@ -71,7 +71,7 @@ All of these changes can be implemented by updating the `RequestOption` slice ex
 ## Adding `2024-10-21` Support to Our Azure OpenAI Plugin
 
 {{< alert "circle-info" >}}
-The following code uses Go 1.23.5 and Genkit Go 1.1.0. Find the complete sample on [GitHub](https://github.com/joergjo/genkit-go-samples/tree/main/azure).
+The following code uses Go 1.25.3 and Genkit Go 1.1.0. Find the complete sample on [GitHub](https://github.com/joergjo/genkit-go-samples/tree/main/azure).
 {{< /alert >}}
 
 First, we add a field to our plugin to store the deployment name.

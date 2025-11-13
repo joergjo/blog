@@ -41,7 +41,7 @@ This remainder of this post explains how to use Genkit Go with Azure OpenAI `v1`
 ## Using Genkit Go with Azure OpenAI `v1`
 
 {{< alert "circle-info" >}}
-The following code uses Go 1.23.5 and Genkit Go 1.1.0. Find the complete sample on [GitHub](https://github.com/joergjo/genkit-go-samples/tree/main/azure).
+The following code uses Go 1.25.3 and Genkit Go 1.1.0. Find the complete sample on [GitHub](https://github.com/joergjo/genkit-go-samples/tree/main/azure).
 {{< /alert >}}
 
 The key difference between Azure OpenAI `v1` and OpenAI is the base URL. Azure OpenAI uses a resource-specific URL, while OpenAI uses `api.openai.com` for all users. Any OpenAI client targeting Azure OpenAI API `v1` must be configured with the Azure resource's base URL.

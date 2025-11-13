@@ -63,7 +63,7 @@ Different embedding models produce vectors with different dimensions. For exampl
 ## Vector Search with Azure OpenAI and pgvector
 
 {{< alert "circle-info" >}}
-The following code uses Go 1.23.5 and Genkit Go 1.1.0. Find the complete sample on [GitHub](https://github.com/joergjo/genkit-go-samples/tree/main/aoai-pgvector).
+The following code uses Go 1.25.3 and Genkit Go 1.1.0. Find the complete sample on [GitHub](https://github.com/joergjo/genkit-go-samples/tree/main/aoai-pgvector).
 {{< /alert >}}
 
 To demonstrate a practical use case, I'll adapt the [`pgvector` Genkit Go sample](https://github.com/firebase/genkit/tree/main/go/samples/pgvector). This sample implements basic vector search using PostgreSQL with the `pgvector` extension, which adds vector operations and a native vector type to PostgreSQL. The original uses Google's models, but only minimal changes are needed for Azure OpenAI.
